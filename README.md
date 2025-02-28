@@ -1,26 +1,12 @@
+# React + Vite
 
-**Overview**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This is a React-based web application that fetches country names from the REST Countries API and displays them in a paginated table. It includes a search functionality to filter countries dynamically based on user input.
+Currently, two official plugins are available:
 
-**Features**
-1) Fetches country data from REST Countries API
-2) Displays country names in a table
-3) Search functionality to filter country names
-4) Pagination for better navigation
-5) Auto-focus on search input when the page loads
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-**Technologies Used**
+## Expanding the ESLint configuration
 
-1) React.js
-2) Axios for API requests
-3) Tailwind CSS for styling
-
-**How to run the project**
-1) Start the development server: npm run dev
-2) Open your browser and visit: http://localhost:5173/
-
-**Author**
-
-ANKUR SHARMA
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
