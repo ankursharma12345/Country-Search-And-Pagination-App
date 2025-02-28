@@ -14,7 +14,7 @@ This is a React-based web application that fetches country names from the REST C
 2) Axios for API requests
 3) Tailwind CSS for styling
 
-** How to Run the Project**
+**How to Run the Project**
 1) Start the development server: npm run dev
 2) Open your browser and visit: http://localhost:5173/
 
